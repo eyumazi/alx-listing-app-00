@@ -4,6 +4,7 @@ import Button from "@/components/layout/Button";
 export default function Home() {
   return (
     <div>
+      <br />
       <Card
         title="Beautiful Apartment"
         location="New York, NY"
