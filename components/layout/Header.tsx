@@ -70,7 +70,7 @@ const Header = () => {
                   <input
                     type="text"
                     placeholder="Search for destinations"
-                    className="border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 w-full lg:w-40"
+                    className="border:none focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 w-full lg:w-40"
                   />
                   <label htmlFor="location" className="sr-only">
                     Location
@@ -85,7 +85,7 @@ const Header = () => {
                   <h3 className="font-semibold text-gray-700 mb-1 text-sm">
                     Check in
                   </h3>
-                  <button className="border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 cursor-pointer w-full lg:w-24">
+                  <button className="border:none focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 cursor-pointer w-full lg:w-24">
                     Add date
                   </button>
                 </div>
@@ -94,7 +94,7 @@ const Header = () => {
                   <h3 className="font-semibold text-gray-700 mb-1 text-sm">
                     Check Out
                   </h3>
-                  <button className="border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 cursor-pointer w-full lg:w-24">
+                  <button className="border:none focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 cursor-pointer w-full lg:w-24">
                     Add date
                   </button>
                 </div>
@@ -110,7 +110,7 @@ const Header = () => {
                   <input
                     type="text"
                     placeholder="Add guest"
-                    className="border border-gray-300 rounded-md focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 w-full lg:w-24"
+                    className="border:none focus:outline-none focus:ring-2 focus:ring-blue-500 text-sm px-2 py-1 w-full lg:w-24"
                   />
                 </div>
                 <button className="cursor-pointer mt-2 lg:mt-0">
